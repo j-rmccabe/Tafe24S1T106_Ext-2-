@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Calculator.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Beige">
+        <StackPanel>
+            <StackPanel>
+                <Image Source="/images/abacus.PNG" Width="130" HorizontalAlignment="Right" Margin="0,30,0,0" Height="106" />
+            </StackPanel>
+            <StackPanel>
+                <!-- Contains title text block-->
+                <TextBlock Text="Universal Calculator" HorizontalAlignment="Center" FontSize="72" Margin="0,0,0,10" Foreground="#FF0E409F"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center">
+                <!-- Contains math calculator and Mortgage calcualtor buttons-->
+                <Button x:Name="mathCalculatorButton" Content="Math Calculator" FontSize="48" Margin="0,0,10,10" Width="460" Height="100" Foreground="Black" Background="#33F13838" Click="mathCalculatorButton_Click"/>
+                <Button x:Name="mortgageCalculatorButton" Content="Mortgage Calcualtor" FontSize="48" Margin="0,0,0,10" Width="460" Height="100" Foreground="Black" Background="#33F13838" Click="mortgageCalculatorButton_Click"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Height="220.8" Width="470.4">
+                <!-- Contains currency calculator and exit buttons-->
+                <Button x:Name="currencyCalculatorButton" Content="Currency Calculator" FontSize="48" Width="460" Height="100" Margin="0,0,0,10" Foreground="Black" Background="#33F13838" Click="currencyCalculatorButton_Click"/>
+                <Button x:Name="exitButton" Content="Exit" FontSize="48" Width="460" Height="100" Foreground="Black" BorderBrush="#33F13838" Background="#33F13838" Click="exitButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
