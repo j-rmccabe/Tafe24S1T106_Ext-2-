@@ -40,6 +40,7 @@
 			<StackPanel>
 				<TextBlock x:Name="outputTextBlock" Text="" Height="300" Margin="30,50,0,0" FontSize="36"/>
 			</StackPanel>
+			
 			<StackPanel HorizontalAlignment="Center">
 				<Button Content="Currency Conversion" Margin="0,0,0,10" FontSize="48" Click="Button_Click"/>
 				<Button Content="Exit" HorizontalAlignment="Center" FontSize="48" Click="Button_Click_1"/>
