@@ -21,7 +21,8 @@
                 <!-- Contains math calculator and Mortgage calcualtor buttons-->
                 <Button x:Name="mathCalculatorButton" Content="Math Calculator" FontSize="48" Margin="0,0,10,10" Width="460" Height="100" Foreground="Black" Background="#33F13838" Click="mathCalculatorButton_Click"/>
                 <Button x:Name="mortgageCalculatorButton" Content="Mortgage Calcualtor" FontSize="48" Margin="0,0,0,10" Width="460" Height="100" Foreground="Black" Background="#33F13838" Click="mortgageCalculatorButton_Click"/>
-            </StackPanel>
+				<Button x:Name="tripCalcButton" Content="Trip Calculator" FontSize="48" Margin="0,0,0,10" Width="460" Height="100" Foreground="Black" Background="#33F13838" Click="tripCalcButton_Click"/>
+</StackPanel>
             <StackPanel HorizontalAlignment="Center" Height="220.8" Width="470.4">
                 <!-- Contains currency calculator and exit buttons-->
                 <Button x:Name="currencyCalculatorButton" Content="Currency Calculator" FontSize="48" Width="460" Height="100" Margin="0,0,0,10" Foreground="Black" Background="#33F13838" Click="currencyCalculatorButton_Click"/>
